@@ -6,7 +6,7 @@ import numpy as np
 # Load model (update path if running locally)
 @st.cache_resource
 def load_model():
-    return joblib.load('/content/drive/MyDrive/heart_models/full_pipeline.pkl')  # Adjust for local
+    return joblib.load('full_pipeline.pkl')  # Adjust for local
 
 model = load_model()
 
